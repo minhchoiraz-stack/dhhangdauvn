@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Sự Kiện Các Trường Đại Học</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            color: white;
+            margin: 0;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        h1, h2, h3, h4 {
+            color: #333;
+        }
+
+        h1:hover, h2:hover, h3:hover, h4:hover {
+            color: red;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .event-card {
+            background: #f9f9f9;
+            border-left: 4px solid #222;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .event-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .event-date {
+            background: #222;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .event-location {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .event-description {
+            color: #333;
+            line-height: 1.8;
+        }
+
+        .timeline {
+            border-left: 3px solid #222;
+            padding-left: 20px;
+            margin: 20px 0;
+        }
+
+        .timeline-item {
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .timeline-item:before {
+            content: '';
+            position: absolute;
+            left: -26px;
+            top: 0;
+            width: 14px;
+            height: 14px;
+            background: #222;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        .event-image {
+            max-width: 100%;
+            height: auto;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        .nav-links {
+            text-align: center;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .nav-links a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background: #222;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .nav-links a:hover {
+            background: #444;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SỰ KIỆN CÁC TRƯỜNG ĐẠI HỌC 2025</h1>
+</header>
+
+<div class="nav-links">
+    <a href="page1.html">← Trang 1: Giới Thiệu</a>
+    <a href="page2.html">Trang 2: So Sánh Qua Năm</a>
+    <a href="page3.html">Trang 3: Sự Kiện (Hiện Tại)</a>
+</div>
+
+<section>
+    <h2>Sự Kiện và Hoạt Động Nổi Bật Năm 2025</h2>
+    <p>
+        Các trường đại học hàng đầu Việt Nam đang tổ chức nhiều sự kiện lớn nhằm nâng cao chất lượng giáo dục, 
+        hỗ trợ sinh viên phát triển kỹ năng, và tạo cơ hội kết nối với các doanh nghiệp quốc tế.
+    </p>
+
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="event-card">
+                <div class="event-date">📅 Tháng 3 - 4, 2025</div>
+                <h3>VNU Hà Nội - Hội Thảo Quốc Tế: "Đổi Mới Sáng Tạo trong Giáo Dục"</h3>
+                <div class="event-location">📍 Hội Trường Chính, Đại học Quốc gia Hà Nội (Cầu Giấy)</div>
+                <div class="event-description">
+                    Sự kiện quy tụ hơn 500 đại biểu từ các đại học hàng đầu thế giới, chuyên gia giáo dục, 
+                    và nhà tài trợ. Các bài phát biểu chính sẽ tập trung vào xu hướng công nghệ AI trong giáo dục 
+                    và phương pháp dạy học hiện đại. Sinh viên có cơ hội tham gia các workshop miễn phí.
+                    <br><strong>Đăng ký:</strong> <a href="#" style="color: blue;">vnuhcm.edu.vn/event</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="event-card">
+                <div class="event-date">📅 Tháng 4, 2025</div>
+                <h3>HUST - Cuộc Thi Khởi Nghiệp "HUST Startup Challenge 2025"</h3>
+                <div class="event-location">📍 Khuôn viên HUST, Thanh Xuân, Hà Nội</div>
+                <div class="event-description">
+                    Cuộc thi quy mô lớn được tổ chức hàng năm nhằm tìm kiếm những ý tưởng khởi nghiệp độc đáo. 
+                    Giải thưởng tổng cộng 500 triệu đồng cho 3 dự án xuất sắc nhất. Các thí sinh sẽ được hướng dẫn 
+                    bởi các chuyên gia từ các công ty công nghệ hàng đầu như FPT, Viettel,...
+                    <br><strong>Hạn đăng ký:</strong> 31/3/2025
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="event-card">
+                <div class="event-date">📅 Tháng 5, 2025</div>
+                <h3>VNU TP.HCM - Hội Chợ Việc Làm Quốc Tế</h3>
+                <div class="event-location">📍 Trung Tâm Hội Nghị Hòa Bình, TP.HCM</div>
+                <div class="event-description">
+                    Sự kiện quy tụ hơn 150 công ty, tổ chức quốc tế tuyển dụng nhân lực. Sinh viên 3 bậc (cử nhân, 
+                    thạc sĩ, tiến sĩ) có cơ hội phỏng vấn trực tiếp với HR manager. Các công ty hàng đầu như 
+                    Google, Meta, Amazon cũng tham dự sự kiện.
+                    <br><strong>Miễn phí tham dự</strong> cho sinh viên VNU TP.HCM
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="event-card">
+                <div class="event-date">📅 Tháng 5 - 6, 2025</div>
+                <h3>DTU & TDTU - Chương Trình Trao Đổi Sinh Viên Quốc Tế</h3>
+                <div class="event-location">📍 Đà Nẵng & TP.HCM</div>
+                <div class="event-description">
+                    Hai trường đại học tư thục hàng đầu miền Nam tổ chức chương trình trao đổi sinh viên 
+                    với các đại học ở Nhật Bản, Hàn Quốc, và Đức. Sinh viên sẽ được học tập, thực tập 
+                    tại các công ty quốc tế trong 3-6 tháng.
+                    <br><strong>Đối tượng:</strong> Sinh viên năm 2, 3, có GPA ≥ 3.0
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="event-card">
+                <div class="event-date">📅 Tháng 6, 2025</div>
+                <h3>Hội Thảo Liên Trường: "Tương Lai của Giáo Dục Đại Học Việt Nam"</h3>
+                <div class="event-location">📍 Trực tuyến + Trực tiếp tại 5 trường</div>
+                <div class="event-description">
+                    Hội thảo quy tụ lãnh đạo các trường VNU Hà Nội, VNU TP.HCM, HUST, DTU, TDTU để thảo luận 
+                    những thách thức và cơ hội trong lĩnh vực giáo dục đại học. Sinh viên được phép phát biểu 
+                    quan điểm và góp ý.
+                    <br><strong>Lịch:</strong> Quá trình báo danh mở cửa từ 01/05/2025
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="event-card">
+                <div class="event-date">📅 Tháng 7, 2025</div>
+                <h3>VNU & HUST - Chương Trình Đại Sứ Giáo Dục</h3>
+                <div class="event-location">📍 Các trường phổ thông trên toàn quốc</div>
+                <div class="event-description">
+                    Hai trường hàng đầu sẽ cử các sinh viên xuất sắc đi thuyết trình tại các trường phổ thông 
+                    để giảng dạy, hỗ trợ học sinh lớp 12 chuẩn bị cho kỳ thi đại học. Đây là năm thứ 3 
+                    của chương trình này.
+                    <br><strong>Số lượng học sinh hỗ trợ:</strong> Dự kiến 50,000+ học sinh
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="event-card">
+                <div class="event-date">📅 Tháng 9, 2025</div>
+                <h3>Lễ Khai Giảng Năm Học 2025-2026</h3>
+                <div class="event-location">📍 Các trường đại học (Tổ chức độc lập)</div>
+                <div class="event-description">
+                    Tất cả các trường đại học tổ chức lễ khai giảng cho các tân sinh viên năm học mới. 
+                    Các sự kiện sẽ bao gồm tham quan khuôn viên, giới thiệu chương trình học tập, 
+                    và các hoạt động hướng dẫn sinh viên mới.
+                    <br><strong>Lưu ý:</strong> Các tân sinh viên cần chuẩn bị sớm tài liệu học tập
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Cơ Hội Tham Gia Các Sự Kiện</h2>
+    <div class="event-card">
+        <h4>📢 Dành cho Sinh Viên Hiện Tại:</h4>
+        <ul>
+            <li>Tham gia các hội thảo và workshop miễn phí</li>
+            <li>Cơ hội thực tập tại các công ty quốc tế</li>
+            <li>Trao đổi sinh viên quốc tế (học bổng có thể có sẵn)</li>
+            <li>Cuộc thi khởi nghiệp với giải thưởng hấp dẫn</li>
+        </ul>
+    </div>
+
+    <div class="event-card">
+        <h4>👨‍🎓 Dành cho Học Sinh Phổ Thông:</h4>
+        <ul>
+            <li>Tham gia chương trình giáo dục chuẩn bị đại học</li>
+            <li>Tìm hiểu thêm về các ngành học tại các trường</li>
+            <li>Gặp gỡ những sinh viên xuất sắc và nhận lời khuyên</li>
+            <li>Cơ hội tham gia các khóa học tăng thêm kỹ năng</li>
+        </ul>
+    </div>
+
+    <div class="event-card">
+        <h4>🏢 Dành cho Doanh Nghiệp & Nhân Viên HR:</h4>
+        <ul>
+            <li>Tuyển dụng nhân lực trẻ tại các hội chợ việc làm</li>
+            <li>Hỗ trợ chương trình thực tập cho sinh viên</li>
+            <li>Tham gia các hội thảo về xu hướng công nghệ và nhân lực</li>
+            <li>Thiết lập quan hệ đối tác với các trường đại học</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Liên Hệ & Thông Tin Thêm</h2>
+    <p>
+        <strong>📧 Email Liên Hệ:</strong><br>
+        - VNU Hà Nội: event@vnu.edu.vn<br>
+        - VNU TP.HCM: contact@vnuhcm.edu.vn<br>
+        - HUST: PR@hust.edu.vn<br>
+        - DTU: events@dtu.edu.vn<br>
+        - TDTU: activity@tdtu.edu.vn
+    </p>
+    <p>
+        <strong>🌐 Website Chính Thức:</strong><br>
+        - Người tìm hiểu sự kiện chi tiết vuid truy cập trang web chính thức của từng trường
+    </p>
+</section>
+
+<div class="nav-links">
+    <a href="page1.html">← Trang 1: Giới Thiệu</a>
+    <a href="page2.html">Trang 2: So Sánh Qua Năm</a>
+</div>
+
+<footer>
+    <p>Thông Liên Hệ: (lớp 12C12, THPT Võ Trường Toản)</p>
+</footer>
+
+</body>
+</html>
