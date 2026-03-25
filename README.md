@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Tất Cả Về Top 5 Trường Đại Học - Phiên Bản Gộp</title>
+    <title>Tất Cả Về Top 5 Trường Đại Học </title>
     <style>
         * {
             margin: 0;
