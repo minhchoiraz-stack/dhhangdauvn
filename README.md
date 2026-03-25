@@ -1,342 +1,956 @@
-# 🎓 TOP 5 TRƯỜNG ĐẠI HỌC ỞỤ VIỆT NAM
-
-Dự án website so sánh và giới thiệu 5 trường đại học hàng đầu Việt Nam, cung cấp thông tin chi tiết về các trường, chương trình đào tạo, cơ sở vật chất và các sự kiện năm 2025.
-
----
-
-## 📋 Nội Dung Dự Án
-
-Dự án bao gồm **3 trang HTML** liên kết với nhau, cung cấp thông tin toàn diện về giáo dục đại học tại Việt Nam:
-
-### 🏠 **Trang 1: Giới Thiệu (page1.html)**
-Trang chính cung cấp thông tin tổng quan về 5 trường đại học hàng đầu Việt Nam.
-
-**Nội dung chính:**
-- **Giới thiệu chung**: Tầm quan trọng của việc chọn trường đại học
-- **Vị Trí & Chuyên Ngành**: 
-  - Đại học Quốc gia Hà Nội (VNU)
-  - Đại học Quốc gia TP.HCM (VNU-HCM)
-  - So sánh nhanh giữa VNU-HN và VNU-HCM
-  
-- **Xếp Hạng & Đánh Giá**:
-  - Giới thiệu chi tiết 5 trường:
-    - VNU Hà Nội
-    - VNU TP.HCM
-    - HUST (Đại học Bách khoa Hà Nội)
-    - DTU (Trường Đại học Duy Tân)
-    - TDTU (Trường Đại học Tôn Đức Thắng)
-  - Bảng so sánh xếp hạng đại học (QS World Rankings, THE Rankings, số sinh viên, tỷ lệ tốt nghiệp, mức lương)
-
-- **Cơ Sở Vật Chất & Hạ Tầng**:
-  - Mô tả chi tiết cơ sở vật chất của từng trường
-  - Hình ảnh minh họa từng trường
-  - Bảng so sánh tổng hợp (năm thành lập, loại hình, chuyên ngành, đánh giá)
-
-- **Biểu Mẫu Phản Hồi**:
-  - Thu thập thông tin người dùng (họ tên, email, số điện thoại, năm học)
-  - Hệ thống đánh giá 5 sao
-  - Ô nhập ý kiến và đề xuất
-
-**Tính năng:**
-- Modal tuổi để lựa chọn độc giả (người lớn/trẻ em)
-- Bảng dữ liệu chi tiết so sánh các trường
-- Form phản hồi tương tác
-- Liên kết điều hướng đến Trang 2 và 3
-
----
-
-### 📊 **Trang 2: So Sánh Các Trường Qua Các Năm (page2.html)**
-Trang phân tích sự phát triển và thay đổi của 5 trường đại học từ 2020 đến 2025.
-
-**Nội dung chính:**
-- **Sự Phát Triển Xếp Hạng (2020-2025)**:
-  - Bảng so sánh QS World University Rankings qua 6 năm
-  - Nhận xét chi tiết về xu hướng cải thiện
-  - Phân tích vị trí từng trường
-
-- **So Sánh Số Lượng Sinh Viên**:
-  - Thống kê và tăng trưởng số sinh viên của 5 trường
-  - Phân tích xu hướng tuyển sinh
-
-- **Tỷ Lệ Tốt Nghiệp (%)**:
-  - So sánh tỷ lệ hoàn thành khóa học qua các năm
-  - Đánh giá chất lượng đầu ra
-
-**Tính năng:**
-- 3 bảng dữ liệu chi tiết (Xếp hạng, Sinh viên, Tốt nghiệp)
-- Phần nhận xét và phân tích dữ liệu
-- Liên kết điều hướng đến các trang khác
-
----
-
-### 🎉 **Trang 3: Sự Kiện Các Trường Đại Học 2025 (page3.html)**
-Trang giới thiệu các sự kiện, hội thảo và chương trình nổi bật năm 2025.
-
-**Nội dung chính:**
-- **Timeline Sự Kiện:**
-  - **Tháng 3-4**: VNU Hà Nội - Hội Thảo Quốc Tế "Đổi Mới Sáng Tạo trong Giáo Dục"
-  - **Tháng 4**: HUST - Cuộc Thi Khởi Nghiệp "HUST Startup Challenge 2025"
-  - **Tháng 5**: VNU TP.HCM - Hội Chợ Việc Làm Quốc Tế
-  - **Tháng 5-6**: DTU & TDTU - Chương Trình Trao Đổi Sinh Viên Quốc Tế
-  - **Tháng 6**: Hội Thảo Liên Trường "Tương Lai của Giáo Dục Đại Học Việt Nam"
-  - **Tháng 7**: VNU & HUST - Chương Trình Đại Sứ Giáo Dục
-  - **Tháng 9**: Lễ Khai Giảng Năm Học 2025-2026
-
-- **Cơ Hội Tham Gia**:
-  - Dành cho sinh viên hiện tại
-  - Dành cho học sinh phổ thông
-  - Dành cho doanh nghiệp & HR
-
-- **Liên Hệ & Thông Tin Thêm**:
-  - Email liên hệ của từng trường
-  - Website chính thức
-
-**Tính năng:**
-- Timeline trực quan với các sự kiện
-- Thẻ sự kiện chi tiết (ngày tháng, địa điểm, mô tả)
-- Danh sách cơ hội tham gia cho các đối tượng khác nhau
-- Liên kết điều hướng giữa các trang
-
----
-
-## 🎨 Thiết Kế & Giao Diện
-
-### Đặc Điểm Thiết Kế:
-- **Responsive Design**: Thích ứng với các thiết bị khác nhau
-- **Màu sắc**:
-  - Header: Màu đen (#222)
-  - Nền: Màu xám nhạt (#f5f5f5)
-  - Nội dung: Trắng với viền tối
-  
-- **Typography**:
-  - Font: Arial, sans-serif
-  - Line-height: 1.6 (dễ đọc)
-  
-- **Interactivity**:
-  - Hover effects trên các phần tử
-  - Transitions mượt mà
-  - Modal tương tác trên Trang 1
-  - Form phản hồi trên Trang 1
-
-### Cấu Trúc CSS:
-- Bảng với viền và hover effects
-- Card thiết kế hiện đại cho các sự kiện
-- Navigation links có màu nền và hover effects
-- Tất cả các phần tử có transition mượt mà
-
----
-
-## 📂 Cấu Trúc Tệp
-
-```
-Web1/
-├── page1.html          # Trang Giới Thiệu
-├── page2.html          # Trang So Sánh Qua Năm
-├── page3.html          # Trang Sự Kiện
-└── README.md           # Tài liệu này
-```
-
----
-
-## 🚀 Cách Sử Dụng
-
-### 1. Mở các trang:
-- Mở `page1.html` trong trình duyệt để xem trang chính
-- Sử dụng các liên kết điều hướng để chuyển giữa các trang
-- Hoặc mở trực tiếp `page2.html` hoặc `page3.html`
-
-### 2. Tương tác với Trang 1:
-- Lựa chọn độc giả (người lớn/trẻ em) khi tải trang
-- Điền biểu mẫu phản hồi cuối trang
-- Xem các bảng so sánh chi tiết
-
-### 3. Xem Trang 2:
-- Xem các bảng so sánh qua các năm
-- Đọc phân tích về xu hướng phát triển
-
-### 4. Xem Trang 3:
-- Xem timeline sự kiện năm 2025
-- Tìm hiểu về cơ hội tham gia
-- Lấy thông tin liên hệ của các trường
-
----
-
-## 🎯 Các Trường Được Giới Thiệu
-
-### 1. **VNU Hà Nội** (Đại học Quốc gia Hà Nội)
-- Xếp hạng: #1 VN, #400 Thế giới (2025)
-- Chuyên ngành: KHTN, KHXH, CNTT
-- Quy mô: 70,000+ sinh viên
-
-### 2. **VNU TP.HCM** (Đại học Quốc gia TP.HCM)
-- Xếp hạng: #2 VN, #450 Thế giới (2025)
-- Chuyên ngành: Kinh tế, Công nghệ
-- Quy mô: 60,000+ sinh viên
-
-### 3. **HUST** (Đại học Bách khoa Hà Nội)
-- Xếp hạng: #3 VN, #500 Thế giới (2025)
-- Chuyên ngành: Kỹ thuật, Công nghệ
-- Quy mô: 35,000+ sinh viên
-
-### 4. **DTU** (Trường Đại học Duy Tân)
-- Xếp hạng: #50 VN, #3000 Thế giới (2025)
-- Chuyên ngành: Kinh doanh, CNTT
-- Quy mô: 25,000+ sinh viên
-
-### 5. **TDTU** (Trường Đại học Tôn Đức Thắng)
-- Xếp hạng: #60 VN, #3500 Thế giới (2025)
-- Chuyên ngành: Kỹ thuật, Xây dựng
-- Quy mô: 28,000+ sinh viên
-
----
-
-## 📊 Dữ Liệu & Thống Kê
-
-### Dữ Liệu Bao Gồm:
-- **QS World Rankings** (2020-2025)
-- **THE Rankings** (World University Rankings)
-- **Số lượng sinh viên** (2020-2025)
-- **Tỷ lệ tốt nghiệp** (%) - (2020-2025)
-- **Mức lương trung bình** của cử nhân
-- **Sự kiện năm 2025** với lịch trình chi tiết
-
----
-
-## 🔗 Liên Kết Điều Hướng
-
-Tất cả 3 trang đều được liên kết với nhau:
-
-**Trang 1:**
-- → Đến Trang 2: So Sánh Qua Năm
-- → Đến Trang 3: Sự Kiện
-
-**Trang 2:**
-- ← Quay lại Trang 1
-- → Đến Trang 3: Sự Kiện
-
-**Trang 3:**
-- ← Quay lại Trang 1
-- ← Quay lại Trang 2
-
----
-
-## 📝 Các Tính Năng Chính
-
-### ✅ Trang 1:
-- [x] Modal lựa chọn độc giả
-- [x] Giới thiệu chi tiết 5 trường
-- [x] Bảng so sánh xếp hạng
-- [x] Hình ảnh minh họa
-- [x] Biểu mẫu phản hồi tương tác
-- [x] Liên kết điều hướng
-
-### ✅ Trang 2:
-- [x] Bảng so sánh xếp hạng (2020-2025)
-- [x] Bảng so sánh số sinh viên
-- [x] Bảng so sánh tỷ lệ tốt nghiệp
-- [x] Nhận xét và phân tích
-- [x] Liên kết điều hướng
-
-### ✅ Trang 3:
-- [x] Timeline sự kiện năm 2025
-- [x] Thẻ sự kiện chi tiết
-- [x] Cơ hội tham gia để các đối tượng
-- [x] Thông tin liên hệ
-- [x] Liên kết điều hướng
-
----
-
-## 🎨 Màu Sắc & Kiểu Dáng
-
-| Phần Tử | Màu Sắc | Mô Tả |
-|---------|---------|-------|
-| Header | #222 | Nền đen cho tiêu đề |
-| Nền Chính | #f5f5f5 | Xám nhạt |
-| Nội Dung | #fff | Trắng |
-| Chữ | #333 | Tối |
-| Link Điều Hướng | #222 | Đen |
-| Hover Link | #444 | Xám đậm |
-
----
-
-## 📱 Hỗ Trợ Thiết Bị
-
-Các trang được thiết kế để hỗ trợ:
-- ✅ Desktop (1920x1080 trở lên)
-- ✅ Tablet (768px trở lên)
-- ✅ Mobile (360px trở lên)
-
-Sử dụng:
-- `max-width` cho hình ảnh
-- `flex` layout cho responsive design
-- Media query-ready CSS (có thể mở rộng)
-
----
-
-## 📧 Thông Tin Liên Hệ & Tài Liệu Tham Khảo
-
-### Email Liên Hệ (Theo Trang 3):
-- **VNU Hà Nội**: event@vnu.edu.vn
-- **VNU TP.HCM**: contact@vnuhcm.edu.vn
-- **HUST**: PR@hust.edu.vn
-- **DTU**: events@dtu.edu.vn
-- **TDTU**: activity@tdtu.edu.vn
-
-### Website Chính Thức:
-- VNU Hà Nội: https://vnu.edu.vn
-- VNU TP.HCM: https://www.vnuhcm.edu.vn
-- HUST: https://hust.edu.vn
-- DTU: https://dtu.edu.vn
-- TDTU: https://tdtu.edu.vn
-
----
-
-## 🏫 Thông Tin Tác Giả
-
-**Lớp**: 12C12  
-**Trường**: THPT Võ Trường Toản
-
----
-
-## 📄 Ghi Chú
-
-- Tất cả dữ liệu được cập nhật đến tháng 3 năm 2026
-- Các sự kiện liệt kê trên Trang 3 là dự kiến cho năm 2025
-- Tỷ lệ tốt nghiệp và mức lương có thể thay đổi theo năm
-- Xếp hạng quốc tế dựa trên các bảng xếp hạng chính thức
-
----
-
-## 🔄 Cập Nhật Gần Đây
-
-- ✅ Thêm 2 trang HTML mới (page2.html, page3.html)
-- ✅ Liên kết giữa 3 trang
-- ✅ Thêm bảng so sánh dữ liệu lịch sử
-- ✅ Thêm timeline sự kiện 2025
-- ✅ Tạo README.md
-
----
-
-## 📢 Lời Khuyên Sử Dụng
-
-1. **Bắt đầu từ Trang 1**: Để hiểu tổng quan về các trường
-2. **Xem Trang 2**: Để phân tích xu hướng phát triển
-3. **Kiểm tra Trang 3**: Để tìm sự kiện và cơ hội tham gia
-4. **Điền biểu mẫu**: Để cung cấp phản hồi trên Trang 1
-
----
-
-## 📖 Hướng Dẫn Nhanh
-
-| Tác Vụ | Trang | Hành Động |
-|--------|-------|----------|
-| Tìm hiểu chung | Trang 1 | Đọc phần giới thiệu |
-| So sánh chi tiết | Trang 1 | Xem bảng so sánh |
-| Xem xu hướng | Trang 2 | Xem các biểu đồ |
-| Tìm sự kiện | Trang 3 | Xem timeline |
-| Liên hệ | Trang 3 | Tìm email trường |
-
----
-
-**Cảm ơn bạn đã ghé thăm! Hy vọng dự án này hữu ích cho bạn trong việc hiểu và chọn lựa trường đại học phù hợp.** 🎓
-
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tất Cả Về Top 5 Trường Đại Học - Phiên Bản Gộp</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .tab-container {
+            display: flex;
+            background: #333;
+            overflow-x: auto;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .tab-button {
+            flex: 1;
+            padding: 16px 20px;
+            border: none;
+            background: #333;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            transition: all 0.3s ease;
+            min-width: 150px;
+        }
+
+        .tab-button:hover {
+            background: #555;
+        }
+
+        .tab-button.active {
+            background: #222;
+            border-bottom: 4px solid #ff9800;
+        }
+
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.3s ease;
+            background: white;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        h1, h2, h3, h4 {
+            color: #333;
+        }
+
+        h1:hover, h2:hover, h3:hover, h4:hover {
+            color: red;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        img {
+            max-width: 200px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .infrastructure-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .infrastructure-images img {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border: 2px solid #ddd;
+        }
+
+        .brand {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p:hover {
+            color: rgb(255, 0, 0);
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+
+        table th, table td {
+            border: 2px solid #333;
+            padding: 12px;
+            text-align: center;
+        }
+
+        table th {
+            background-color: #222;
+            color: white;
+            font-weight: bold;
+        }
+
+        table tr:hover {
+            background-color: #f0f0f0;
+        }
+
+        .chart {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-left: 4px solid #222;
+            border-radius: 5px;
+        }
+
+        .event-card {
+            background: #f9f9f9;
+            border-left: 4px solid #222;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .event-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .event-date {
+            background: #222;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .event-location {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .event-description {
+            color: #333;
+            line-height: 1.8;
+        }
+
+        .timeline {
+            border-left: 3px solid #222;
+            padding-left: 20px;
+            margin: 20px 0;
+        }
+
+        .timeline-item {
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .timeline-item:before {
+            content: '';
+            position: absolute;
+            left: -26px;
+            top: 0;
+            width: 14px;
+            height: 14px;
+            background: #222;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="tel"],
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #222;
+            background-color: #f9f9f9;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .rating-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .rating-group input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        .rating-group label {
+            display: flex;
+            align-items: center;
+            margin: 0;
+            font-weight: normal;
+            cursor: pointer;
+        }
+
+        .submit-button {
+            background-color: #222;
+            color: white;
+            padding: 14px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit-button:hover {
+            background-color: #444;
+        }
+
+        .submit-button:active {
+            background-color: #111;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #222;
+            color: white;
+            padding: 12px 16px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            font-size: 20px;
+            z-index: 99;
+            transition: all 0.3s ease;
+        }
+
+        .back-to-top:hover {
+            background: #444;
+        }
+
+        .back-to-top.show {
+            display: block;
+        }
+
+        .info-box {
+            background: #e3f2fd;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .success-box {
+            background: #e8f5e9;
+            border-left: 4px solid #4CAF50;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🎓 TOP 5 TRƯỜNG ĐẠI HỌC VIỆT NAM - PHIÊN BẢN GỘP</h1>
+    <p>Tất cả thông tin về 5 trường đại học hàng đầu tại một trang</p>
+</header>
+
+<!-- Tab Navigation -->
+<div class="tab-container">
+    <button class="tab-button active" onclick="switchTab(event, 'tab1')">📖 Trang 1: Giới Thiệu</button>
+    <button class="tab-button" onclick="switchTab(event, 'tab2')">📊 Trang 2: So Sánh Qua Năm</button>
+    <button class="tab-button" onclick="switchTab(event, 'tab3')">🎉 Trang 3: Sự Kiện 2025</button>
+</div>
+
+<!-- TAB 1: GIỚI THIỆU -->
+<div id="tab1" class="tab-content active">
+    <section>
+        <h2>Giới Thiệu</h2>
+        <p>
+            Hiện nay tại Việt Nam có nhiều trường đại học danh tiếng được công nhận trên thế giới, mỗi trường đều có những điểm mạnh và chuyên môn riêng biệt. 
+            Bài viết này sẽ giúp bạn tìm hiểu về 5 trường đại học hàng đầu: Đại học Quốc gia Hà Nội, Đại học Quốc gia TP.HCM, Đại học Bách khoa Hà Nội, Trường Đại học Duy Tân, và Trường Đại học Tôn Đức Thắng. 
+            Nhưng bạn thật sự nên chọn trường đại học nào?
+        </p>
+    </section>
+
+    <section>
+        <h2>Vị Trí & Chuyên Ngành</h2>
+        <p>
+            Mỗi trường đại học hàng đầu tại Việt Nam đều có vị trí địa lý và chuyên ngành mạnh riêng, 
+            phục vụ nhu cầu học tập của sinh viên trên khác lĩnh vực.
+        </p>
+
+        <h3>Đại học Quốc gia Hà Nội (VNU)</h3>
+        <div class="info-box">
+            <p>
+                <strong>Vị trí:</strong> Hà Nội - Thủ đô của Việt Nam<br>
+                <strong>Chuyên ngành mạnh:</strong> Khoa học Tự nhiên, Khoa học Xã hội, Giáo dục, Công nghệ Thông tin<br>
+                <strong>Đặc điểm:</strong> Đại học hàng đầu quốc gia, tạo nên cơ sở giáo dục cao cấp uy tín
+            </p>
+            <a href="https://vnu.edu.vn" target="_blank">→ Tìm hiểu VNU</a>
+        </div>
+
+        <h3>Đại học Quốc gia TP.HCM (VNU-HCM)</h3>
+        <div class="info-box">
+            <p>
+                <strong>Vị trí:</strong> Thành phố Hồ Chí Minh - Trung tâm kinh tế lớn nhất Việt Nam<br>
+                <strong>Chuyên ngành mạnh:</strong> Công nghệ, Kinh tế, Quản lý Kinh doanh, Khoa học Tự nhiên<br>
+                <strong>Đặc điểm:</strong> Cơ hội thực tập và làm việc tại các công ty quốc tế rất lớn
+            </p>
+            <a href="https://www.vnuhcm.edu.vn" target="_blank">→ Tìm hiểu VNU-HCM</a>
+        </div>
+    </section>
+
+    <section>
+        <h3>Xếp Hạng & Đánh Giá</h3>
+
+        <div class="brand">
+            <img src="https://storage.googleapis.com/onthisinhvien.appspot.com/images/985473185-1706153059925-1406_thy_tyc_nhyp_hyc_yyi_hyc_kinh_ty_-_yyi_hyc_quyc_gia_ha_nyi_nym_2020.jpg" alt="VNU">
+            <p><b>Đại học Quốc gia Hà Nội (VNU):</b> Đứng đầu các trường đại học Việt Nam về chất lượng giáo dục. VNU được xếp hạng trong top 1000 trường đại học tốt nhất thế giới. Với đội ngũ giáo sư có trình độ cao, VNU cung cấp chương trình học tập chuyên sâu, đặc biệt trong các lĩnh vực khoa học tự nhiên, công nghệ và nhân văn.</p>
+        </div>
+
+        <div class="brand">
+            <img src="https://hcmussh.edu.vn/img/news/11620609.jpg?t=11620610" alt="VNU-HCM">
+            <p><b>Đại học Quốc gia TP.HCM (VNU-HCM):</b> Đại học hàng đầu phía Nam, nổi tiếng về chất lượng đào tạo và nghiên cứu. VNU-HCM có liên kết quốc tế mạnh mẽ, cung cấp cơ hội trao đổi học sinh và hợp tác học thuật với các đại học nước ngoài uy tín.</p>
+        </div>
+
+        <div class="brand">
+            <img src="https://xdcs.cdnchinhphu.vn/446259493575335936/2025/8/22/bk-1755856140169844190839.jpg" alt="HUST">
+            <p><b>Đại học Bách khoa Hà Nội (HUST):</b> Chuyên về kỹ thuật và công nghệ, HUST là đầu tàu của ngành kỹ thuật tại Việt Nam. Trường nổi bật với các chương trình đào tạo hiện đại, phòng thí nghiệm tiên tiến, và mối liên hệ chặt chẽ với các công ty công nghệ hàng đầu thế giới.</p>
+        </div>
+
+        <div class="brand">
+            <img src="https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/diem_chuan_dai_hoc_duy_tan_da_nang_2025_47a4cfda08.jpg" alt="DTU">
+            <p><b>Trường Đại học Duy Tân (DTU):</b> Trường tư thục danh tiếng, nổi tiếng về chất lượng quản lý và cơ sở vật chất hiện đại. DTU cung cấp các chương trình học tập cập nhật kịp thời, đặc biệt trong các lĩnh vực kinh doanh, công nghệ thông tin và kỹ thuật.</p>
+        </div>
+
+        <div class="brand">
+            <img src="https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/172279/Originals/hoc-phi-truong-dai-hoc-ton-duc-thang-1.jpg" alt="TDTU">
+            <p><b>Trường Đại học Tôn Đức Thắng (TDTU):</b> Trường tư thục uy tín, chuyên đào tạo kỹ sư chất lượng cao. TDTU nổi bật về mối quan hệ gần gũi với các doanh nghiệp, cung cấp cơ hội thực tập thực tế cho sinh viên, và chương trình học tập linh hoạt phù hợp với nhu cầu thị trường.</p>
+        </div>
+    </section>
+
+    <section>
+        <h3>Bảng So Sánh Xếp Hạng Đại Học</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Trường Đại Học</th>
+                    <th>QS World Ranking</th>
+                    <th>THE Ranking</th>
+                    <th>Sinh Viên</th>
+                    <th>Tỷ Lệ Đỗ Tốt Nghiệp</th>
+                    <th>Lương Trung Bình</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>VNU Hà Nội</td>
+                    <td>#1 VN, #400 Thế giới</td>
+                    <td>#300 Thế giới</td>
+                    <td>70,000+</td>
+                    <td>95%</td>
+                    <td>15-18 triệu</td>
+                </tr>
+                <tr>
+                    <td>VNU TP.HCM</td>
+                    <td>#2 VN, #450 Thế giới</td>
+                    <td>#350 Thế giới</td>
+                    <td>60,000+</td>
+                    <td>94%</td>
+                    <td>14-17 triệu</td>
+                </tr>
+                <tr>
+                    <td>HUST</td>
+                    <td>#3 VN, #500 Thế giới</td>
+                    <td>#400 Thế giới</td>
+                    <td>35,000+</td>
+                    <td>96%</td>
+                    <td>16-20 triệu</td>
+                </tr>
+                <tr>
+                    <td>DTU</td>
+                    <td>#50 VN, #3000 Thế giới</td>
+                    <td>#800 Thế giới</td>
+                    <td>25,000+</td>
+                    <td>92%</td>
+                    <td>12-15 triệu</td>
+                </tr>
+                <tr>
+                    <td>TDTU</td>
+                    <td>#60 VN, #3500 Thế giới</td>
+                    <td>#1000 Thế giới</td>
+                    <td>28,000+</td>
+                    <td>91%</td>
+                    <td>13-16 triệu</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Biểu Mẫu Phản Hồi</h2>
+        <div class="form-container">
+            <form id="feedbackForm" onsubmit="submitForm(event)">
+                <div class="form-group">
+                    <label for="fullname">Họ và Tên:</label>
+                    <input type="text" id="fullname" name="fullname" required placeholder="Nhập họ và tên của bạn">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Nhập email của bạn">
+                </div>
+
+                <div class="form-group">
+                    <label for="rating">Đánh Giá Thông Tin:</label>
+                    <div class="rating-group">
+                        <label><input type="radio" name="rating" value="5" required> Rất Hữu Ích (5⭐)</label>
+                        <label><input type="radio" name="rating" value="4"> Hữu Ích (4⭐)</label>
+                        <label><input type="radio" name="rating" value="3"> Bình Thường (3⭐)</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="comments">Góp Ý & Đề Xuất:</label>
+                    <textarea id="comments" name="comments" placeholder="Chia sẻ ý kiến của bạn..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Gửi Đánh Giá</button>
+            </form>
+        </div>
+    </section>
+</div>
+
+<!-- TAB 2: SO SÁNH QUA NĂM -->
+<div id="tab2" class="tab-content">
+    <section>
+        <h2>Sự Phát Triển Xếp Hạng Các Trường (2020-2025)</h2>
+        <p>
+            Dưới đây là bảng so sánh sự phát triển xếp hạng của 5 trường đại học hàng đầu Việt Nam trong giai đoạn 2020-2025.
+            Dữ liệu này cho thấy xu hướng cải thiện và thay đổi trong chất lượng giáo dục của các trường.
+        </p>
+
+        <h3>Xếp Hạng QS World University Ranking (2020-2025)</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Trường Đại Học</th>
+                    <th>2020</th>
+                    <th>2021</th>
+                    <th>2022</th>
+                    <th>2023</th>
+                    <th>2024</th>
+                    <th>2025</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>VNU Hà Nội</b></td>
+                    <td>#600</td>
+                    <td>#550</td>
+                    <td>#500</td>
+                    <td>#450</td>
+                    <td>#420</td>
+                    <td>#400</td>
+                </tr>
+                <tr>
+                    <td><b>VNU TP.HCM</b></td>
+                    <td>#700</td>
+                    <td>#650</td>
+                    <td>#580</td>
+                    <td>#500</td>
+                    <td>#470</td>
+                    <td>#450</td>
+                </tr>
+                <tr>
+                    <td><b>HUST</b></td>
+                    <td>#650</td>
+                    <td>#600</td>
+                    <td>#550</td>
+                    <td>#520</td>
+                    <td>#510</td>
+                    <td>#500</td>
+                </tr>
+                <tr>
+                    <td><b>DTU</b></td>
+                    <td>#3500+</td>
+                    <td>#3200</td>
+                    <td>#3100</td>
+                    <td>#3050</td>
+                    <td>#3020</td>
+                    <td>#3000</td>
+                </tr>
+                <tr>
+                    <td><b>TDTU</b></td>
+                    <td>#3600+</td>
+                    <td>#3400</td>
+                    <td>#3300</td>
+                    <td>#3200</td>
+                    <td>#3100</td>
+                    <td>#3500</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="chart">
+            <h4>📊 Nhận Xét:</h4>
+            <p>✓ <b>VNU Hà Nội</b> đã có sự tiến bộ đáng kể, từ #600 (2020) xuống #400 (2025), chứng tỏ chất lượng giáo dục đã cải thiện đáng kể.</p>
+            <p>✓ <b>VNU TP.HCM</b> cũng ghi nhận sự cải thiện, từ #700 xuống #450, cho thấy tính cạnh tranh ngày càng tăng.</p>
+            <p>✓ <b>HUST</b> duy trì vị trí hàng đầu giữa các trường kỹ thuật, liên tục cải thiện từ #650 xuống #500.</p>
+        </div>
+    </section>
+
+    <section>
+        <h3>So Sánh Số Lượng Sinh Viên Qua Các Năm</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Trường Đại Học</th>
+                    <th>2020</th>
+                    <th>2021</th>
+                    <th>2022</th>
+                    <th>2023</th>
+                    <th>2024</th>
+                    <th>2025</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>VNU Hà Nội</b></td>
+                    <td>62,000</td>
+                    <td>64,000</td>
+                    <td>66,000</td>
+                    <td>68,000</td>
+                    <td>69,000</td>
+                    <td>70,000</td>
+                </tr>
+                <tr>
+                    <td><b>VNU TP.HCM</b></td>
+                    <td>55,000</td>
+                    <td>57,000</td>
+                    <td>58,000</td>
+                    <td>59,000</td>
+                    <td>60,000</td>
+                    <td>60,000</td>
+                </tr>
+                <tr>
+                    <td><b>HUST</b></td>
+                    <td>30,000</td>
+                    <td>31,000</td>
+                    <td>32,000</td>
+                    <td>33,000</td>
+                    <td>34,000</td>
+                    <td>35,000</td>
+                </tr>
+                <tr>
+                    <td><b>DTU</b></td>
+                    <td>20,000</td>
+                    <td>21,000</td>
+                    <td>22,000</td>
+                    <td>23,000</td>
+                    <td>24,000</td>
+                    <td>25,000</td>
+                </tr>
+                <tr>
+                    <td><b>TDTU</b></td>
+                    <td>24,000</td>
+                    <td>25,000</td>
+                    <td>26,000</td>
+                    <td>27,000</td>
+                    <td>28,000</td>
+                    <td>28,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h3>Tỷ Lệ Tốt Nghiệp Qua Các Năm (%)</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Trường Đại Học</th>
+                    <th>2020</th>
+                    <th>2021</th>
+                    <th>2022</th>
+                    <th>2023</th>
+                    <th>2024</th>
+                    <th>2025</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>VNU Hà Nội</b></td>
+                    <td>92%</td>
+                    <td>93%</td>
+                    <td>94%</td>
+                    <td>94%</td>
+                    <td>95%</td>
+                    <td>95%</td>
+                </tr>
+                <tr>
+                    <td><b>VNU TP.HCM</b></td>
+                    <td>91%</td>
+                    <td>92%</td>
+                    <td>93%</td>
+                    <td>93%</td>
+                    <td>94%</td>
+                    <td>94%</td>
+                </tr>
+                <tr>
+                    <td><b>HUST</b></td>
+                    <td>94%</td>
+                    <td>95%</td>
+                    <td>95%</td>
+                    <td>96%</td>
+                    <td>96%</td>
+                    <td>96%</td>
+                </tr>
+                <tr>
+                    <td><b>DTU</b></td>
+                    <td>88%</td>
+                    <td>89%</td>
+                    <td>90%</td>
+                    <td>91%</td>
+                    <td>92%</td>
+                    <td>92%</td>
+                </tr>
+                <tr>
+                    <td><b>TDTU</b></td>
+                    <td>87%</td>
+                    <td>88%</td>
+                    <td>89%</td>
+                    <td>90%</td>
+                    <td>91%</td>
+                    <td>91%</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</div>
+
+<!-- TAB 3: SỰ KIỆN 2025 -->
+<div id="tab3" class="tab-content">
+    <section>
+        <h2>Sự Kiện và Hoạt Động Nổi Bật Năm 2025</h2>
+        <p>
+            Các trường đại học hàng đầu Việt Nam đang tổ chức nhiều sự kiện lớn nhằm nâng cao chất lượng giáo dục, 
+            hỗ trợ sinh viên phát triển kỹ năng, và tạo cơ hội kết nối với các doanh nghiệp quốc tế.
+        </p>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="event-card">
+                    <div class="event-date">📅 Tháng 3 - 4, 2025</div>
+                    <h3>VNU Hà Nội - Hội Thảo Quốc Tế: "Đổi Mới Sáng Tạo trong Giáo Dục"</h3>
+                    <div class="event-location">📍 Hội Trường Chính, Đại học Quốc gia Hà Nội (Cầu Giấy)</div>
+                    <div class="event-description">
+                        Sự kiện quy tụ hơn 500 đại biểu từ các đại học hàng đầu thế giới, chuyên gia giáo dục, 
+                        và nhà tài trợ. Các bài phát biểu chính sẽ tập trung vào xu hướng công nghệ AI trong giáo dục 
+                        và phương pháp dạy học hiện đại.
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="event-card">
+                    <div class="event-date">📅 Tháng 4, 2025</div>
+                    <h3>HUST - Cuộc Thi Khởi Nghiệp "HUST Startup Challenge 2025"</h3>
+                    <div class="event-location">📍 Khuôn viên HUST, Thanh Xuân, Hà Nội</div>
+                    <div class="event-description">
+                        Cuộc thi quy mô lớn nhằm tìm kiếm những ý tưởng khởi nghiệp độc đáo. 
+                        Giải thưởng tổng cộng <b>500 triệu đồng</b> cho 3 dự án xuất sắc nhất.
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="event-card">
+                    <div class="event-date">📅 Tháng 5, 2025</div>
+                    <h3>VNU TP.HCM - Hội Chợ Việc Làm Quốc Tế</h3>
+                    <div class="event-location">📍 Trung Tâm Hội Nghị Hòa Bình, TP.HCM</div>
+                    <div class="event-description">
+                        Sự kiện quy tụ hơn <b>150 công ty</b>, tổ chức quốc tế tuyển dụng nhân lực. 
+                        Sinh viên có cơ hội phỏng vấn trực tiếp với các HR manager.
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="event-card">
+                    <div class="event-date">📅 Tháng 5 - 6, 2025</div>
+                    <h3>DTU & TDTU - Chương Trình Trao Đổi Sinh Viên Quốc Tế</h3>
+                    <div class="event-location">📍 Đà Nẵng & TP.HCM</div>
+                    <div class="event-description">
+                        Chương trình trao đổi sinh viên với các đại học ở <b>Nhật Bản, Hàn Quốc, và Đức</b>. 
+                        Sinh viên sẽ được học tập, thực tập tại các công ty quốc tế trong 3-6 tháng.
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="event-card">
+                    <div class="event-date">📅 Tháng 6, 2025</div>
+                    <h3>Hội Thảo Liên Trường: "Tương Lai của Giáo Dục Đại Học Việt Nam"</h3>
+                    <div class="event-location">📍 Trực tuyến + Trực tiếp tại 5 trường</div>
+                    <div class="event-description">
+                        Hội thảo quy tụ <b>lãnh đạo các trường</b> VNU Hà Nội, VNU TP.HCM, HUST, DTU, TDTU 
+                        để thảo luận những thách thức và cơ hội trong lĩnh vực giáo dục đại học.
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="event-card">
+                    <div class="event-date">📅 Tháng 7, 2025</div>
+                    <h3>VNU & HUST - Chương Trình Đại Sứ Giáo Dục</h3>
+                    <div class="event-location">📍 Các trường phổ thông trên toàn quốc</div>
+                    <div class="event-description">
+                        Hai trường hàng đầu sẽ cử các sinh viên xuất sắc đi thuyết trình tại các trường phổ thông. 
+                        <b>Số lượng học sinh hỗ trợ: 50,000+ học sinh</b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="event-card">
+                    <div class="event-date">📅 Tháng 9, 2025</div>
+                    <h3>Lễ Khai Giảng Năm Học 2025-2026</h3>
+                    <div class="event-location">📍 Các trường đại học (Tổ chức độc lập)</div>
+                    <div class="event-description">
+                        Tất cả các trường đại học tổ chức lễ khai giảng cho các tân sinh viên năm học mới. 
+                        Các sự kiện sẽ bao gồm tham quan khuôn viên, giới thiệu chương trình học tập.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Cơ Hội Tham Gia Các Sự Kiện</h2>
+        
+        <div class="event-card">
+            <h4>📢 Dành cho Sinh Viên Hiện Tại:</h4>
+            <ul>
+                <li>✓ Tham gia các hội thảo và workshop miễn phí</li>
+                <li>✓ Cơ hội thực tập tại các công ty quốc tế</li>
+                <li>✓ Trao đổi sinh viên quốc tế (học bổng có thể có sẵn)</li>
+                <li>✓ Cuộc thi khởi nghiệp với giải thưởng hấp dẫn</li>
+            </ul>
+        </div>
+
+        <div class="event-card">
+            <h4>👨‍🎓 Dành cho Học Sinh Phổ Thông:</h4>
+            <ul>
+                <li>✓ Tham gia chương trình giáo dục chuẩn bị đại học</li>
+                <li>✓ Tìm hiểu thêm về các ngành học tại các trường</li>
+                <li>✓ Gặp gỡ những sinh viên xuất sắc và nhận lời khuyên</li>
+                <li>✓ Cơ hội tham gia các khóa học tăng thêm kỹ năng</li>
+            </ul>
+        </div>
+
+        <div class="event-card">
+            <h4>🏢 Dành cho Doanh Nghiệp & Nhân Viên HR:</h4>
+            <ul>
+                <li>✓ Tuyển dụng nhân lực trẻ tại các hội chợ việc làm</li>
+                <li>✓ Hỗ trợ chương trình thực tập cho sinh viên</li>
+                <li>✓ Thiết lập quan hệ đối tác với các trường đại học</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Liên Hệ & Thông Tin Thêm</h2>
+        <div class="success-box">
+            <h4>📧 Email Liên Hệ:</h4>
+            <p>
+                <b>VNU Hà Nội:</b> event@vnu.edu.vn<br>
+                <b>VNU TP.HCM:</b> contact@vnuhcm.edu.vn<br>
+                <b>HUST:</b> PR@hust.edu.vn<br>
+                <b>DTU:</b> events@dtu.edu.vn<br>
+                <b>TDTU:</b> activity@tdtu.edu.vn
+            </p>
+        </div>
+    </section>
+</div>
+
+<!-- Back to Top Button -->
+<div class="back-to-top" onclick="scrollToTop()">↑</div>
+
+<footer>
+    <p>Thông Liên Hệ: Lớp 12C12, THPT Võ Trường Toản</p>
+    <p>© 2025 - Tất cả các quyền được bảo lưu</p>
+</footer>
+
+<script>
+    function switchTab(evt, tabName) {
+        // Ẩn tất cả tab content
+        const contents = document.getElementsByClassName("tab-content");
+        for (let i = 0; i < contents.length; i++) {
+            contents[i].classList.remove("active");
+        }
+
+        // Xóa active class từ tất cả buttons
+        const buttons = document.getElementsByClassName("tab-button");
+        for (let i = 0; i < buttons.length; i++) {
+            buttons[i].classList.remove("active");
+        }
+
+        // Hiển thị tab được chọn
+        document.getElementById(tabName).classList.add("active");
+        evt.currentTarget.classList.add("active");
+
+        // Scroll to top
+        window.scrollTo(0, 0);
+    }
+
+    function submitForm(event) {
+        event.preventDefault();
+        
+        const fullname = document.getElementById('fullname').value;
+        const email = document.getElementById('email').value;
+        const rating = document.querySelector('input[name="rating"]:checked').value;
+        const comments = document.getElementById('comments').value;
+        
+        const message = `Cảm ơn ${fullname}!\n\nThông tin của bạn đã được ghi nhận:\n- Email: ${email}\n- Đánh giá: ${rating}⭐\n- Nhận xét: ${comments || 'Không có'}\n\nCảm ơn bạn đã góp ý!`;
+        
+        alert(message);
+        document.getElementById('feedbackForm').reset();
+    }
+
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Back to top button visibility
+    window.addEventListener('scroll', function() {
+        const backToTopBtn = document.querySelector('.back-to-top');
+        if (window.pageYOffset > 500) {
+            backToTopBtn.classList.add('show');
+        } else {
+            backToTopBtn.classList.remove('show');
+        }
+    });
+</script>
+
+</body>
+</html>
